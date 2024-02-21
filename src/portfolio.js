@@ -2,97 +2,99 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Naif's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always thrives to work on end to end Machine Learning products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Naif A. Ganadily Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://naifganadily.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Naif A. Ganadily",
+  logo_name: "NaifGanadily",
+  nickname: "Nathan",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always thrives to work on end to end Machine Learning products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/drive/folders/132ZjZfrqtHQXIrMJxjf6Wg6p16nLmyfa?usp=sharing",
+  portfolio_repository: "https://github.com/Naif-Ganadily",
+  githubProfile: "https://github.com/Naif-Ganadily",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
+  // github: "https://github.com/Naif-Ganadily",
+  // linkedin: "https://www.linkedin.com/in/naif-ganadily/",
+  // gmail: "ganadilynaif@gmail.com",
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/Naif-Ganadily",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/naif-ganadily/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
+    link: "https://www.youtube.com/channel/UC01vuFHgDdRUVIe64KX2wQA",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:ganadilynaif@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
+  /*
   {
     name: "X-Twitter",
     link: "https://twitter.com/ashutosh_1919",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
+  */
+  /*
   {
     name: "Facebook",
     link: "https://www.facebook.com/laymanbrother.19/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
+  */
+  /*
   {
     name: "Instagram",
     link: "https://www.instagram.com/layman_brother/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
+  */
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "AI, Machine Learning, Deep Learning",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Experience of working with Privacy Preserving, Computer Vision and NLP (LLM) projects",
+        "⚡ Analytical techniques for enhancing Computer Vision and Language Model (LLM) applications through predictive analytics and temporal data interpretation",
       ],
       softwareSkills: [
         {
@@ -132,7 +134,7 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "AI Full Stack Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
@@ -332,8 +334,9 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/ganadilynaif/",
     },
+    /*
     {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
@@ -366,13 +369,14 @@ const competitiveSites = {
       },
       profileLink: "https://www.hackerearth.com/@ashutosh391",
     },
+    */
     {
       siteName: "Kaggle",
       iconifyClassname: "simple-icons:kaggle",
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.kaggle.com/naifaganadily",
     },
   ],
 };
@@ -380,30 +384,30 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "University of Washington",
+      subtitle: "MS in Electrical Engineering",
+      logo_path: "University-of-Washington-Logo-modified.png",
+      alt_name: "UW",
+      duration: "2022 - 2024",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡My academic journey includes foundational courses in Artificial Intelligence, Data Structures and Algorithms, complemented by advanced studies in Machine Learning, Privacy-Preserving Techniques, Computer Vision, and Natural Language Processing",
+        "⚡Apart from this,  I've engaged in specialized research with NVIDIA, contributing to the development of the LOFTR model, and explored Federated Learning's privacy aspects, showcasing my dedication to cutting-edge technological advancements.",
+        "⚡I've been awarded the SACM Scholarship for two consecutive years, reflecting my standing among the top performers in my cohort and my commitment to advancing in the field of AI and engineering.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.engr.washington.edu/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "University of Business & Technology",
+      subtitle: "BS in Electrical Engineering",
+      logo_path: "AvCTVo0CAAAmo7c-modified.png",
+      alt_name: "UBT",
+      duration: "2016 - 2021",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ Attained a BS in Electrical Engineering from the University of Business & Technology, I started the Culture & Arts Club which enriched my university experience.",
+        "⚡ Throughout my bachelor's of science degree, I led significant projects including an Energy Management Analysis for the College of Engineering Building and an Independent Design Project on Face Mask Detection, demonstrating leadership and technical expertise.",
+        "⚡ My skill set is reinforced by proficiency in Microsoft Office, MATLAB, and additional tools, underpinning my analytical and engineering capabilities.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.ubt.edu.sa/About/Home",
     },
   ],
 };
@@ -411,50 +415,51 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
+      title: "IBM Data Science Professional Certificate",
+      subtitle: "- IBM",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+        "https://www.coursera.org/account/accomplishments/professional-cert/SQKWATMW4HNS?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "Generative AI with Large Language Models",
+      subtitle: "- Andrew Ng",
+      logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+        "https://www.coursera.org/account/accomplishments/verify/XV3NC9Q2DUD8",
+      alt_name: "generative_ai",
+      color_code: "#00000099",
+    },
+    {
+      title: "Google Data Analytics Professional Certificate",
+      subtitle: "- Google Career Training",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.credly.com/badges/eb69f15a-937e-44b2-8fbe-b7af467bb190?source=linked_in_profile",
+      alt_name: "Google",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Introduction to Data Science",
+      subtitle: "- IBM",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/9TMXNQ2L7QRV?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=s12n",
+      alt_name: "IBM",
+      color_code: "#1F70C199",
+    },
+    {
+      title: "AWS Certified Cloud Practitioner",
+      subtitle: "- AWS",
+      logo_path: "secure-aws-banner@2x.jpg",
+      certificate_link:
+        "https://www.credly.com/badges/8c1ac57d-bf45-42d7-bac1-07d3b3e364f6?source=linked_in_profile",
       alt_name: "Microsoft",
       color_code: "#D83B0199",
     },
+    /*
     {
       title: "Advanced Data Science",
       subtitle: "- Romeo Kienzler",
@@ -518,6 +523,7 @@ const certifications = {
       alt_name: "GCP",
       color_code: "#4285F499",
     },
+    */
   ],
 };
 
@@ -526,7 +532,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "In my professional journey, I have gained valuable skills in the fields of machine learning and deep learning by working as an AI Developer. I also ventured into entrepreneurship by starting my own business. My tasks involved creating sophisticated AI solutions and frameworks, with a special focus on utilizing advanced technologies from NVIDIA to drive innovation forward. This hands on experience has provided me with a deep insight into the practical applications of AI.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -534,27 +540,29 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Founder & CEO",
+          company: "JIDARIYAH | جدارية",
+          // company_url: "",
+          logo_path: "1630493421544.jpg",
+          duration: "August 2020 - November 2022",
+          location: "Jeddah, Saudi Arabia",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "I spearheaded the launch of Sea Colors Trading Establishment, where I utilized WordPress for website design, leveraged Digital Ocean's robust hosting capabilities, and orchestrated social media campaigns to enhance user engagement. In a stride toward immersive technology, I developed an augmented reality software with ARCore to elevate the customer experience. Concurrently, I oversaw financial planning by harnessing the analytical power of Excel and Google Sheets. Although the venture reached early profitability, I strategically pivoted towards artificial intelligence to align better with evolving market trends and my personal academic pursuits.",
           color: "#9b1578",
         },
+        {
+          title: "AI Tutor",
+          company: "Varsity Tutors, a Nerdy Company",
+          company_url: "https://legatohealthtech.com/",
+          logo_path: "varsity_tutors_llc_logo.jpg",
+          duration: "April 2022 - July 2022",
+          location: "West Linn - Oregon, USA",
+          description:
+            "I had the rewarding opportunity to instruct nine students in Python and Machine Learning, meeting three times a week to align closely with their individual goals and expectations. Additionally, I provided virtual Arabic lessons to two students starting from the fundamentals, on a weekly basis. The experience was incredibly fulfilling, and while I greatly enjoyed my time with all of the students, privacy policies regrettably prevent me from sharing visual records of our interactive sessions.",
+          color: "#0879bf",
+        },
+
+        /*
         {
           title: "Android Developer",
           company: "FreeCopy Pvt. Ltd.",
@@ -566,22 +574,24 @@ const experience = {
             "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
           color: "#fc1f20",
         },
+        */
       ],
     },
     {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          title: "Computer Vision Intern",
+          company: "NVIDIA.",
+          company_url: "https://www.nvidia.com/en-us/",
+          logo_path: "nvidia_logo.png",
+          duration: "July 2023 - March 2024",
+          location: "Seattle - Washington, USA",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "In my role at NVIDIA, I have been deeply involved in the practical application of the LoFTR model for computer vision. My responsibilities included managing the YCB dataset, which is composed of 21 distinct objects, to ensure its readiness for detailed analysis and processing. I have also been engaged in 3D modeling and rendering, using Blender to import and apply textures to objects, thereby creating synthetic images that closely match the spatial accuracy of real-world counterparts. My work extended to image processing, particularly in extracting vertex information from both static and dynamic images to capture vital data from synthetic and actual RGB footage. Additionally, I performed data analysis, where I compared vertex data between synthetic and real images, contributing to research in object recognition and scene comprehension. A significant part of my internship involved compiling a dataset of 48 grids showcasing objects in different orientations, which is crucial for developing robust computer vision models. Throughout this internship, I had the opportunity to work with technologies such as Python, Blender API, advanced data structures and algorithms, VS Code, Git, and GitHub, all of which played a significant role in advancing the field of computer vision technology.",
           color: "#000000",
         },
+        /*
         {
           title: "Data Science Research Intern",
           company: "Delhivery Pvt. Ltd.",
@@ -605,22 +615,24 @@ const experience = {
             "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
           color: "#0071C5",
         },
+        */
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          title: "Event Coordinator",
+          company: "United States Embassy of Jeddah",
+          company_url: "https://sa.usembassy.gov/jeddah/",
+          logo_path: "uscg-jeddah-seal.png",
+          duration: "December 2019 - December 2019",
+          location: "Jeddah, Saudi Arabia",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "I have been involved in the coordination of events and activities for the United States Embassy of Jeddah. I have been responsible for the planning and execution of events, including the coordination of guest speakers, the organization of event logistics, and the management of event budgets. I have also been responsible for the development of event marketing materials, including the creation of event flyers, posters, and social media content. I have also been involved in the coordination of event volunteers, including the recruitment, training, and management of volunteers. I have been responsible for the development of event evaluation materials, including the creation of event surveys and the analysis of event feedback. I have also been involved in the coordination of event follow-up activities, including the development of event reports and the management of event data.",
           color: "#4285F4",
         },
+        /*
         {
           title: "Microsoft Student Partner",
           company: "Microsoft",
@@ -666,6 +678,7 @@ const experience = {
             "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
           color: "#181717",
         },
+        */
       ],
     },
   ],
@@ -675,14 +688,13 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "During my Master of Science in Electrical Engineering at the University of Washington I concentrated on End-to-End development of AI projects within web, mobile, and edge computing platforms. Connecting theoretical concepts with practical applications.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
+  description: "Working on these Research Projects for Publications.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -690,28 +702,30 @@ const publications = {
   data: [
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      name: "NVIDIA LoFTR Workshop Paper",
+      createdAt: "TBD",
+      description:
+        "Invited to contribute to specialized LOFTR model research, utilizing tools like Blender, nvisii, and the YCB Dataset",
+      // url: "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      name:
+        "Electronic Health Care Records using Privacy Preserving Machine Learning",
+      createdAt: "TBD",
+      description:
+        "Contributing to a comprehensive review paper focused on evaluating current Electronic Health Care Records using Privacy Preserving Machine Learning.",
+      // url: "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      name: "Federated Learning in Adversarial Setting Survey/ Review Paper",
+      createdAt: "TBD",
+      description:
+        "Contributing to a comprehensive review paper focused on evaluating current Federated Learning in Adversarial Setting.",
+      // url: "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
+    /*
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
       name: "Artificial Intelligence Paper",
@@ -728,6 +742,7 @@ const publications = {
       url:
         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
+    */
   ],
 };
 
@@ -735,28 +750,28 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "naif_animated.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available mostly on my Github and Linkedin. You can message me, I will reply within 2 days. I can help you with ML, Deeplearning, Computer Vision, NLP, Edge Devices and Web/App Development.",
   },
+
   blogSection: {
     title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    subtitle: "Coming Soon.",
+    // link: "https://blogs.ashutoshhathidara.com/",
     avatar_image_path: "blogs_image.svg",
   },
+
   addressSection: {
     title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+    subtitle: "",
     locality: "Kanodar",
-    country: "IN",
-    region: "Gujarat",
-    postalCode: "385520",
-    streetAddress: "Ambavadi vas",
+    country: "USA",
+    region: "West Coast",
+    // postalCode: "385520",
+    streetAddress: "",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    // location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
   phoneSection: {
     title: "",
