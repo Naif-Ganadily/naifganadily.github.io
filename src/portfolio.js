@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end Machine Learning products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/drive/folders/132ZjZfrqtHQXIrMJxjf6Wg6p16nLmyfa?usp=sharing",
+    "https://drive.google.com/file/d/1ekbipa6q7_2igUhtZjiFnxUUjKAH26gl/view?usp=sharing",
   portfolio_repository: "https://github.com/Naif-Ganadily",
   githubProfile: "https://github.com/Naif-Ganadily",
 };
@@ -48,12 +48,14 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
+  /*
   {
     name: "YouTube",
     link: "https://www.youtube.com/channel/UC01vuFHgDdRUVIe64KX2wQA",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
+  */
   {
     name: "Gmail",
     link: "mailto:ganadilynaif@gmail.com",
@@ -155,14 +157,16 @@ const skills = {
           style: {
             color: "#1572B6",
           },
+
         },
+          /*
         {
           skillName: "Sass",
           fontAwesomeClassname: "simple-icons:sass",
           style: {
             color: "#CC6699",
           },
-        },
+          */
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -192,6 +196,7 @@ const skills = {
             color: "#CB3837",
           },
         },
+          /*
         {
           skillName: "Yarn",
           fontAwesomeClassname: "simple-icons:yarn",
@@ -212,7 +217,8 @@ const skills = {
           style: {
             color: "#02569B",
           },
-        },
+          */
+
       ],
     },
     {
@@ -244,6 +250,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:microsoftazure",
           style: {
             color: "#0089D6",
+          },
+        },
+        {
+          skillName: "Supabase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
           },
         },
         {
@@ -283,6 +296,7 @@ const skills = {
         },
       ],
     },
+    /*
     {
       title: "UI/UX Design",
       fileName: "DesignImg",
@@ -321,8 +335,9 @@ const skills = {
           },
         },
       ],
-    },
+    },*/
   ],
+  
 };
 
 // Education Page
@@ -459,16 +474,17 @@ const certifications = {
       alt_name: "Microsoft",
       color_code: "#D83B0199",
     },
-    /*
+    
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
+      title: "Azure AI Fundamentals",
+      subtitle: "- Azure AI",
+      logo_path: "azure-ai-fundamentals-600x600",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
+        "https://learn.microsoft.com/en-us/users/naifganadily/credentials/35c27ab118dfa657?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+      alt_name: "Azure",
       color_code: "#1F70C199",
     },
+    /*
     {
       title: "Advanced ML on GCP",
       subtitle: "- GCP Training",
@@ -578,10 +594,10 @@ const experience = {
       ],
     },
     {
-      title: "Internships",
+      title: "Research Collaboration",
       experiences: [
         {
-          title: "Computer Vision Intern",
+          title: "Research Collaborator",
           company: "NVIDIA.",
           company_url: "https://www.nvidia.com/en-us/",
           logo_path: "nvidia_logo.png",
@@ -697,7 +713,7 @@ const publicationsHeader = {
   description: "Working on these Research Projects for Publications.",
   avatar_image_path: "projects_image.svg",
 };
-
+ /*
 const publications = {
   data: [
     {
@@ -725,7 +741,7 @@ const publications = {
         "Contributing to a comprehensive review paper focused on evaluating current Federated Learning in Adversarial Setting.",
       // url: "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
-    /*
+   
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
       name: "Artificial Intelligence Paper",
@@ -742,15 +758,15 @@ const publications = {
       url:
         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
-    */
+    
   ],
 };
-
+*/
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "naif_animated.png",
+    profile_image_path: "Screenshot.jpg",
     description:
       "I am available mostly on my Github and Linkedin. You can message me, I will reply within 2 days. I can help you with ML, Deeplearning, Computer Vision, NLP, Edge Devices and Web/App Development.",
   },
