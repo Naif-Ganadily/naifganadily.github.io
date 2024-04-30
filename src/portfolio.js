@@ -157,9 +157,8 @@ const skills = {
           style: {
             color: "#1572B6",
           },
-
         },
-          /*
+        /*
         {
           skillName: "Sass",
           fontAwesomeClassname: "simple-icons:sass",
@@ -196,7 +195,7 @@ const skills = {
             color: "#CB3837",
           },
         },
-          /*
+        /*
         {
           skillName: "Yarn",
           fontAwesomeClassname: "simple-icons:yarn",
@@ -218,7 +217,6 @@ const skills = {
             color: "#02569B",
           },
           */
-
       ],
     },
     {
@@ -337,7 +335,6 @@ const skills = {
       ],
     },*/
   ],
-  
 };
 
 // Education Page
@@ -474,7 +471,7 @@ const certifications = {
       alt_name: "Microsoft",
       color_code: "#D83B0199",
     },
-    
+
     {
       title: "Azure AI Fundamentals",
       subtitle: "- Azure AI",
@@ -713,55 +710,48 @@ const publicationsHeader = {
   description: "Working on these Research Projects for Publications.",
   avatar_image_path: "projects_image.svg",
 };
- /*
+
 const publications = {
   data: [
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "NVIDIA LoFTR Workshop Paper",
+      name: "Upcoming Research Projects",
       createdAt: "TBD",
-      description:
-        "Invited to contribute to specialized LOFTR model research, utilizing tools like Blender, nvisii, and the YCB Dataset",
+      description: "",
       // url: "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name:
-        "Electronic Health Care Records using Privacy Preserving Machine Learning",
+      name: "",
       createdAt: "TBD",
-      description:
-        "Contributing to a comprehensive review paper focused on evaluating current Electronic Health Care Records using Privacy Preserving Machine Learning.",
+      description: "",
       // url: "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Federated Learning in Adversarial Setting Survey/ Review Paper",
+      name: "",
       createdAt: "TBD",
-      description:
-        "Contributing to a comprehensive review paper focused on evaluating current Federated Learning in Adversarial Setting.",
+      description: "",
       // url: "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
-   
+
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      name: "",
+      createdAt: "TBD",
+      description: "",
+      url: "",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      name: "",
+      createdAt: "TBD",
+      description: "",
+      url: "",
     },
-    
   ],
 };
-*/
+
 // Contact Page
 const contactPageData = {
   contactSection: {
