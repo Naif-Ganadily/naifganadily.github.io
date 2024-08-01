@@ -9,7 +9,7 @@ redirect_from:
 
 👋 Hello there, I'm Naif
 ======
-I’m passionate about using health related data to solve important problems in areas such as healthcare, health policy, and health security. My primary ambition is to guide emerging health technologies impact toward beneficial outcomes.
+I’m passionate about using health-related data to solve important problems in areas such as healthcare, health policy, and health security. My primary ambition is to ensure that emerging health technologies have a positive and beneficial impact.
 
 Currently I am starting my first year PhD student in Arizona State University's BioMedical Informatics at the Health Solutions Dept advised by [Prof. Qiyun Zhu](https://search.asu.edu/profile/3737104).
 My research includes two major threads:
