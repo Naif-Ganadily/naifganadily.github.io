@@ -11,7 +11,7 @@ redirect_from:
 ======
 I’m passionate about using health related data to solve important problems in areas such as healthcare, health policy, and health security. My primary ambition is to guide emerging health technologies impact toward beneficial outcomes.
 
-Currently I am starting my first year PhD student in Arizona State University's BioMedical Informatics at the Health Solutions Dept advised by Prof. ![Qiyun Zhu](https://search.asu.edu/profile/3737104).
+Currently I am starting my first year PhD student in Arizona State University's BioMedical Informatics at the Health Solutions Dept advised by Prof. [Qiyun Zhu](https://search.asu.edu/profile/3737104).
 My research includes two major threads:
 
 1. Designing AI algorithms and AI systems for precision medicine and precision nutrition
