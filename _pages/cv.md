@@ -12,10 +12,10 @@ redirect_from:
 Education
 ======
 * **Ph.D. in Biomedical Informatics**, Arizona State University, 08/2024 – 08/2028
-  * Advisor: Prof. Qiyun Zhu
+  * Advisor: Prof. Qiyun Zhu & Prof. Li Liu
   * GPA: 4.00
 * **MS in Electrical Engineering**, University of Washington, 09/2022 – 03/2024
-  * Mentors: Prof. Stan Birchfield, Prof. Tamara Bonaci
+  * Mentors: Prof. Stan Birchfield, Prof. Tamara Bonaci, Prof. Radha Poovendran
   * GPA: 3.79
 * **BS in Electrical Engineering**, University of Business and Technology, 09/2016 – 08/2021
   * Advisor: Prof. Mohammed Al-Qarni
@@ -28,6 +28,11 @@ Education
 
 ## Research Experience
 ======
+* **PhyCollar**
+  * Arizona State University
+  * Advisor: Professor Qiyun Zhu (August 2024 -  Present)
+  * Conducting research at the Biodesign Center for Fundamental and Applied Microbiomics under the supervision of Prof. Qiyun Zhu
+  * Leading the Phycollar Research Project (MLOps, Automation testing, ML-based Agile Methodologies)
 * **Literature Review on Privacy-Preserving Machine Learning for EHR**
   * University of Washington
   * Mentor: Professor Tamara Bonaci (January 2024 – March 2024)
@@ -43,6 +48,11 @@ Education
 
 ## Projects
 ======
+* **Gut Microbiome Precision Nutrition**
+  * This was part of the AI for Precision Nutrition Bootcamp at Arizona State University
+  * Built machine learning (Random Forest, SVM) and deep learning models to predict insulin resistance (IR) and insulin sensitivity (IS), achieving 84% train and 83% test accuracy. Preprocessed microbiome data with encoding, CLR transformation, and sparse PCA for compositional analysis.
+  * Applied SHAP values for feature impact analysis in deep learning, explaining contributions to IR/IS predictions.
+  * Proposed dietary interventions, including increased fiber intake and probiotic/prebiotic use, to improve therapeutic outcomes and early detection of IR.
 * **Differential Privacy/Pseudonymization in Federated Learning for Medical Data**
   * Implemented differential privacy and pseudonymization in TensorFlow Federated for protected medical data learning.
   * Crafted preprocessing pipeline for federated dataset creation and feature standardization/encoding.
@@ -75,10 +85,16 @@ Education
 * **Languages & Abilities**
   * Proficient in English and Arabic
   * Unrestricted Work Authorization in the United States and Saudi Arabia
-* **Programming Languages & Machine Learning Frameworks**
-  * Proficient in: Python (Sympy, LaTeX, NumPy, Pandas, Matplotlib, Seaborn, SciKit-Learn, Image, GANs, 2D and 3D GNNs, NLTK, Huggingface, OpenAI APIs, Tensorflow, Pytorch), Matlab, SQL
-  * Familiar with: NVISSI, Blender, Blender Python API, C
-* **Tools & Packages**
-  * AWS Cloud Computing, Google Cloud Computing (VertexAI, AutoML), IBM Watson
-  * Git, Anaconda, Jupyter Notebooks & Jupyterlabs, VSCode
-  * Data Science Tools, Microsoft Office 365, Google Sheets, WordPress, Video Conferencing
+* **Programming Languages**
+  * Proficient in: Python (NumPy, Pandas, SciKit-Learn, Matplotlib, Seaborn, TensorFlow, PyTorch, CUDA, scikit-bio), MATLAB, SQL, C, C++, JavaScript, SAS, HTML
+* **Machine Learning Frameworks & Tools**
+  * TensorFlow, PyTorch, AutoKeras, SHAP, LIME, scikit-learn, Apache Hadoop, PySpark, and Kubernetes
+  * DevOps: Git, Docker, Jenkins, CI/CD Pipelines, Google Cloud Platform, AWS (SageMaker, EC2), Azure Cloud
+* **Big Data and Analytics**
+  * AWS, Azure, Google Cloud Platform, Hadoop, PySpark
+  * Data storytelling, parallel computing, and multithreading
+* **Other Tools**
+  * Blender and Blender Python API, Advanced 3D Data Structures
+  * Microsoft Office 365, Linux, and VSCode
+* **Further Skills**
+  * Effective communication, project planning, technical documentation, cross-cultural collaboration, stakeholder management, and critical thinking
